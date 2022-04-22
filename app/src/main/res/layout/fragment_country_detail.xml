@@ -6,65 +6,213 @@
     android:orientation="vertical"
     tools:context=".fragments.CountryDetailFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:id="@+id/txt_detail_country_name"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:text="Azerbaijan"
-        android:layout_margin="10dp"
-        />
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:id="@+id/txt_native"
-        android:textColor="@color/black"
-        android:text="Azerbaycan"
-        android:layout_marginLeft="10dp"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Country: "
+            android:layout_marginRight="10dp"
+            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:id="@+id/txt_capital"
-        android:textColor="@color/black"
-        android:text="Baku"
-        android:layout_marginLeft="10dp"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/txt_detail_country_name"
+            android:textColor="@color/white"
+            android:text="Azerbaijan"
+            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:id="@+id/txt_phone"
-        android:textColor="@color/black"
-        android:text="994"
-        android:layout_marginLeft="10dp"
-        />
+    </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:id="@+id/txt_language_name"
-        android:textColor="@color/black"
-        android:text="Azerbaijan"
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
         android:layout_marginLeft="10dp"
-        />
+        android:layout_marginRight="10dp"
+        android:background="@color/white"/>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:id="@+id/txt_currency"
-        android:textColor="@color/black"
-        android:text="AZN"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Native: "
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/txt_native"
+            android:textColor="@color/white"
+            android:text="Azərbaycan"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
         android:layout_marginLeft="10dp"
-        />
+        android:layout_marginRight="10dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Capital: "
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/txt_capital"
+            android:textColor="@color/white"
+            android:text="Baku"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Phone code: "
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/txt_phone"
+            android:textColor="@color/white"
+            android:text="994"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Language: "
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/txt_language_name"
+            android:textColor="@color/white"
+            android:text="Azerbaijan"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Currency: "
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/txt_currency"
+            android:textColor="@color/white"
+            android:text="AZN"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"/>
 
 </LinearLayout>

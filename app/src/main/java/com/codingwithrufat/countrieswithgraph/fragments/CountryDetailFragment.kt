@@ -30,6 +30,12 @@ class CountryDetailFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_country_detail, container, false)
 
+        setDataToWidgets(view)
+
+        return view
+    }
+
+    private fun setDataToWidgets(view: View){
         viewModel.selectedItem.observe(this, { item ->
 
             view.txt_detail_country_name.text = item.name
@@ -40,8 +46,6 @@ class CountryDetailFragment : Fragment() {
             view.txt_phone.text = item.phone
 
         })
-
-        return view
     }
 
 }

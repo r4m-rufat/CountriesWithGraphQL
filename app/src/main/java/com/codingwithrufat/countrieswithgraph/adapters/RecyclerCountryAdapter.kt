@@ -19,11 +19,8 @@ class RecyclerCountryAdapter constructor(private val context: Context, private v
     private var list: List<CountriesQuery.Country> = listOf()
 
     fun updateCountryList(list: List<CountriesQuery.Country>){
-
         this.list = list
         notifyDataSetChanged()
-        Log.d(TAG, "updateCountryList: updated")
-
     }
 
     override fun onCreateViewHolder(
@@ -45,7 +42,7 @@ class RecyclerCountryAdapter constructor(private val context: Context, private v
     }
 
     override fun getItemCount(): Int {
-        if (list == null){
+        if (list.isEmpty()){
             return 0
         }
         return list.size

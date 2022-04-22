@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rufet/CountriesWithGraph/app/src/main/res/layout-land/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/rufet/CountriesWithGraph/app/src/main/res/layout/activity_main.xml" value="0.1296875" />
         <entry key="..\:/Users/rufet/CountriesWithGraph/app/src/main/res/layout/fragment_countries.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/rufet/CountriesWithGraph/app/src/main/res/layout/fragment_country_detail.xml" value="0.1" />
+        <entry key="..\:/Users/rufet/CountriesWithGraph/app/src/main/res/layout/fragment_country_detail.xml" value="0.264" />
+        <entry key="..\:/Users/rufet/CountriesWithGraph/app/src/main/res/layout/layout_app_bar.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/rufet/CountriesWithGraph/app/src/main/res/layout/layout_country_recycler_item.xml" value="0.4" />
       </map>
     </option>
